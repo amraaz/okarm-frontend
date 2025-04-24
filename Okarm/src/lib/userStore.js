@@ -5,7 +5,7 @@ import { browser } from '$app/environment';
 
 function createUserStore() {
     const initialUser = {
-        name: '$no name set$',
+        name: 'No name set',
         email: '$no email set$',
     };
 
