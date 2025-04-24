@@ -1,22 +1,22 @@
-<!-- <button class=" text-blue-100 bg-black" >
-    Login with Google
-</button> -->
+<div class="container mx-auto p-4 flex flex-col items-center">
+    <h3 class="text-lg font-semibold mb-2">DEBUG SITE MAP</h3>
 
-<div>
-    <h3>DEBUG SITE MAP|||||||||||TO BE REMOVED ONCE DONE</h3>
-    <br/>
-    <h1>LIST OF WORKING ROUTES</h1>
-    <a href="/authenticate" class=" duration-300 bg-black text-white text-2xl text hover:text-pink-200" >Log In</a>
-    <a href="/me" class=" duration-300 bg-black text-white text-2xl text hover:text-pink-200" >DASHBORD</a>
-    <br/>
-    <br/>
-    <h1>LIST OF TESTING ROUTES</h1>
-    <h3>GENERAL</h3>
-    <br/>
-    <br/>
-    <h3>ADMIN SECTION</h3>
-    <a href="/ADMINISTRATION" class=" duration-300 bg-black text-white text-2xl text hover:text-pink-200" >ADMIN CODE ENTRY</a>
-    <br/>
-    <br/>
+    <div class="mb-6 flex flex-col items-center">
+        <h1 class="text-2xl font-bold mb-4">WORKING ROUTES</h1>
+        <a href="/authenticate" class="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700 transition duration-300 mb-2">Log In</a>
+        <a href="/me" class="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700 transition duration-300">DASHBOARD</a>
+    </div>
 
+    <div class="mb-6 flex flex-col items-center mt-8">
+        <h1 class="text-2xl font-bold mb-4">TESTING ROUTES</h1>
+
+        <div>
+            <h3 class="text-xl font-semibold mb-2">GENERAL</h3>
+        </div>
+
+        <div>
+            <h3 class="text-xl font-semibold mb-2">ADMIN SECTION</h3>
+            <a href="/ADMINISTRATION" class="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700 transition duration-300">ADMIN CODE ENTRY</a>
+        </div>
+    </div>
 </div>
