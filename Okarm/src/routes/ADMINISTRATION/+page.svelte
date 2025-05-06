@@ -12,6 +12,14 @@
         >
             Code Authentication
         </a>
+        <br/>
+        <br/>
+        <a
+            href="/ADMINISTRATION/CASSY"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+            CASSY MAIN PAGE
+        </a>
     </div>
 </div>
 
